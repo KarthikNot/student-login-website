@@ -1,0 +1,90 @@
+.mainContainer {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  /* border: 1px solid red; */
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+table {
+  margin-top: 10%;
+  border: none;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th,
+td {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.navbar {
+  position: absolute;
+  top: 5px;
+  width: 99.5%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  background-color: rgb(14, 12, 12);
+  height: 50px;
+  color: black;
+  border: 1px solid rgb(184, 184, 184);
+}
+
+.title {
+  position: absolute;
+  font-size: 20px;
+  top: 16%;
+  left: 2%;
+}
+
+.addBtn {
+  position: absolute;
+  left: 90%;
+  top: 18%;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 3px;
+  width: 4rem;
+  height: 22px;
+  color: white;
+  background-color: rgb(85, 176, 79);
+  transform: 0.2 ease;
+}
+
+.addBtn:hover {
+  background-color: rgb(94, 193, 87);
+}
+
+.homeBtn {
+  position: absolute;
+  left: 95%;
+  top: 20%;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 3px;
+  width: 4rem;
+  height: 25px;
+  color: white;
+  background-color: rgb(70, 28, 255);
+  transform: 0.2 ease;
+}
